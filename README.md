@@ -8,12 +8,12 @@ Este es el repositorio de mi portafolio personal, diseñado y desarrollado para 
 ## 📝 Índice
 
 - [Portfolio - Alfonso Subiela](#portfolio---alfonso-subiela)
-  - [📝 Índice](#-índice)
-  - [🚀 Descripción](#-descripción)
-  - [✨ Características](#-características)
-  - [🛠️ Tecnologías Utilizadas](#️-tecnologías-utilizadas)
-  - [📂 Estructura del Proyecto](#-estructura-del-proyecto)
-  - [👤 Autor](#-autor)
+   [📝 Índice](#-índice)
+   [🚀 Descripción](#-descripción)
+   [✨ Características](#-características)
+   [🛠️ Tecnologías Utilizadas](#️-tecnologías-utilizadas)
+   [📂 Estructura del Proyecto](#-estructura-del-proyecto)
+   [👤 Autor](#-autor)
 
 ## 🚀 Descripción
 
