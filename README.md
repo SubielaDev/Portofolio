@@ -1,6 +1,6 @@
 # Portfolio - Alfonso Subiela
 
-![](assets/portfolio.gif)
+<img src="assets/demo.gif" width="350">
 
 Este es el repositorio de mi portafolio personal, diseñado y desarrollado para mostrar mis habilidades, proyectos y trayectoria como Desarrollador Web Junior.
 
