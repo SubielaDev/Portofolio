@@ -6,15 +6,13 @@
 Este es el repositorio de mi portafolio personal, diseñado y desarrollado para mostrar mis habilidades, proyectos y trayectoria como Desarrollador Web Junior.
 
 
-## 📝 Índice
 
 - [Portfolio - Alfonso Subiela](#portfolio---alfonso-subiela)
-   [📝 Índice](#-índice)
-   [🚀 Descripción](#-descripción)
-   [✨ Características](#-características)
-   [🛠️ Tecnologías Utilizadas](#️-tecnologías-utilizadas)
-   [📂 Estructura del Proyecto](#-estructura-del-proyecto)
-   [👤 Autor](#-autor)
+-  [📝 Índice](#-índice)
+-  [🚀 Descripción](#-descripción)
+-  [✨ Características](#-características)
+-  [🛠️ Tecnologías Utilizadas](#️-tecnologías-utilizadas)
+-  [📂 Estructura del Proyecto](#-estructura-del-proyecto)
 
 ## 🚀 Descripción
 
