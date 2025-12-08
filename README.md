@@ -1,17 +1,19 @@
 # Portfolio - Alfonso Subiela
 
-![](assets/demo.gif)
+![](assets/portfolio.gif)
 
 Este es el repositorio de mi portafolio personal, diseñado y desarrollado para mostrar mis habilidades, proyectos y trayectoria como Desarrollador Web Junior.
 
 
 ## 📝 Índice
 
-1. [Descripción](#-descripción)
-2. [Características](#-características)
-3. [Tecnologías Utilizadas](#-tecnologías-utilizadas)
-4. [Estructura del Proyecto](#-estructura-del-proyecto)
-5. [Autor](#-autor)
+- [Portfolio - Alfonso Subiela](#portfolio---alfonso-subiela)
+  - [📝 Índice](#-índice)
+  - [🚀 Descripción](#-descripción)
+  - [✨ Características](#-características)
+  - [🛠️ Tecnologías Utilizadas](#️-tecnologías-utilizadas)
+  - [📂 Estructura del Proyecto](#-estructura-del-proyecto)
+  - [👤 Autor](#-autor)
 
 ## 🚀 Descripción
 
