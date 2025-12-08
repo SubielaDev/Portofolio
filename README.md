@@ -4,6 +4,15 @@
 
 Este es el repositorio de mi portafolio personal, diseñado y desarrollado para mostrar mis habilidades, proyectos y trayectoria como Desarrollador Web Junior.
 
+
+## 📝 Índice
+
+1. [Descripción](#-descripción)
+2. [Características](#-características)
+3. [Tecnologías Utilizadas](#-tecnologías-utilizadas)
+4. [Estructura del Proyecto](#-estructura-del-proyecto)
+5. [Autor](#-autor)
+
 ## 🚀 Descripción
 
 El proyecto es una web **spa (single-page application)** construida desde cero, con un diseño moderno que combina estética "tech" (estilo terminal) con una interfaz limpia y animada. El objetivo es presentar mi perfil profesional de una manera interactiva y atractiva.
