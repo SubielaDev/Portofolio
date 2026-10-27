@@ -9,8 +9,8 @@
 ├── script.js       # Toda la interactividad (49 líneas)
 ├── dockerfile      # Servir con nginx
 ├── README.md       # Presentación del repo (en español)
-├── assets/         # profile.jpg, logo-navbar.avif, portfolio.gif
-├── 01-TOOLS/       # Harness rsc: conectores a herramientas
+├── assets/         # profile.jpg, logo-navbar.avif, portfolio.gif, og-image.jpg
+├── 01-TOOLS/       # Harness rsc: conectores a herramientas; og-image/generar.py crea og-image.jpg
 └── 02-DOCS/        # Harness rsc: wiki del proyecto
 ```
 
