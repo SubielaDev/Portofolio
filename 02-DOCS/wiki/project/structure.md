@@ -1,0 +1,49 @@
+# Estructura
+
+## Ficheros
+
+```text
+/
+├── index.html      # Toda la página (336 líneas)
+├── style.css       # Todos los estilos (≈960 líneas)
+├── script.js       # Toda la interactividad (49 líneas)
+├── dockerfile      # Servir con nginx
+├── README.md       # Presentación del repo (en español)
+├── assets/         # profile.jpg, logo-navbar.avif, scraper_boe.png, portfolio.gif
+├── 01-TOOLS/       # Harness rsc: conectores a herramientas
+└── 02-DOCS/        # Harness rsc: wiki del proyecto
+```
+
+`assets/scraper_boe.png` no se usa en `index.html`. `portfolio.gif` solo lo usa el README.
+
+## Secciones de la página (en orden)
+
+| Ancla | Contenido |
+|---|---|
+| `aside.barra-social` | Barra lateral fija: GitHub, LinkedIn, email, y atajos a `#sobre-mi` y `#habilidades` |
+| `nav.barra-navegacion` | Logo "Portfolio" + un único enlace a `#proyectos` + botón hamburguesa (`.alternar-menu`) |
+| `#inicio` (hero) | "Ventana de terminal" con saludo, título, cita y foto; botones "Ver Proyectos" y "Descargar CV" |
+| `#sobre-mi` | Texto de trayectoria + estadísticas (+1 año, +3 proyectos) |
+| `#habilidades` | Slider infinito de tecnologías (8 items duplicados a mano para el bucle) |
+| `#proyectos` | Grid de tarjetas: "Dashboard Personal" y "Scraper BOE". Una tercera tarjeta ("Task Manager App") está comentada |
+| `footer` | Copyright 2025 |
+
+## Estado de las tarjetas de proyecto
+
+- **Dashboard Personal**: es la agenda clínica online del autor. El código está en carpetas locales y aún no está subido; por eso los enlaces son `#`. La tarjeta se queda.
+- **Scraper BOE**: publicado, con código en GitHub y demo en YouTube.
+- **Task Manager App**: el proyecto no existe. La tarjeta comentada se borrará en una tarea aparte.
+
+## Cómo añadir un proyecto
+
+Copiar un `<article class="tarjeta-proyecto oculto retraso-N">` dentro de `.grid-proyectos`. Partes: `.imagen-proyecto` (gradiente `gradiente-1..3` o logo), `.info-proyecto` con `h3`, `p`, `.etiquetas` y `.enlaces-proyecto` (Código + Demo).
+
+## Cómo añadir una tecnología al slider
+
+Añadir el `.slide` dos veces: una en el bloque "Originales" y otra en "Duplicados". Si no, el bucle infinito salta.
+
+## Observaciones del código
+
+- `#habilidades` está dentro de `#sobre-mi` y hay un `</div>` de más justo antes de `</section>` (línea 243).
+- `body.tema-oscuro` no tiene reglas en `style.css`: es la única paleta.
+- El README menciona un "efecto de escritura" en el hero; existe en CSS (`@keyframes typing` sobre `.texto2-terminal`).
