@@ -1,0 +1,23 @@
+# Keep the image limited to the static site (index.html, style.css, script.js, assets/)
+
+# Version control
+.git
+.gitignore
+
+# Internal docs, tooling and agent harness
+02-DOCS
+01-TOOLS
+.claude
+.rsc
+.rsc.json
+.worktrees
+
+# Build files and repo meta
+Dockerfile
+dockerfile
+.dockerignore
+README.md
+
+# Local leftovers
+*.original
+*_temp
