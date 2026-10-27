@@ -379,6 +379,13 @@ body {
     color: var(--acento-primario);
 }
 
+.btn-deshabilitado,
+.btn-deshabilitado:hover {
+    color: var(--texto-secundario);
+    opacity: 0.6;
+    cursor: not-allowed;
+}
+
 footer {
     text-align: center;
     padding: 2rem 0;
