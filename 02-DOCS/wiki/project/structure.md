@@ -25,12 +25,12 @@
 | `#inicio` (hero) | "Ventana de terminal" con saludo, título, cita y foto; botones "Ver Proyectos" y "Descargar CV" |
 | `#sobre-mi` | Texto de trayectoria + estadísticas (+1 año, +3 proyectos) |
 | `#habilidades` | Slider infinito de tecnologías (8 items duplicados a mano para el bucle) |
-| `#proyectos` | Grid de tarjetas: "Dashboard Personal" y "Scraper BOE" |
+| `#proyectos` | Grid de tarjetas: "Agenda Clínica Online" y "Scraper BOE" |
 | `footer` | Copyright 2025 |
 
 ## Estado de las tarjetas de proyecto
 
-- **Dashboard Personal**: es la agenda clínica online del autor. El código está en carpetas locales y aún no está subido; por eso los enlaces son `#`. La tarjeta se queda.
+- **Agenda Clínica Online** (antes "Dashboard Personal", renombrada el 2026-10-28): agenda online para clínicas. El código está en carpetas locales y aún no está subido; por eso los enlaces son `#`. Ya no muestra el aviso "en construcción".
 - **Scraper BOE**: publicado, con código en GitHub y demo en YouTube.
 - **Task Manager App**: el proyecto no existe. La tarjeta comentada se borró del código el 2026-10-28.
 
