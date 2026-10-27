@@ -5,16 +5,16 @@
 ```text
 /
 ├── index.html      # Toda la página (336 líneas)
-├── style.css       # Todos los estilos (≈960 líneas)
+├── style.css       # Todos los estilos (≈700 líneas)
 ├── script.js       # Toda la interactividad (49 líneas)
 ├── dockerfile      # Servir con nginx
 ├── README.md       # Presentación del repo (en español)
-├── assets/         # profile.jpg, logo-navbar.avif, scraper_boe.png, portfolio.gif
+├── assets/         # profile.jpg, logo-navbar.avif, portfolio.gif
 ├── 01-TOOLS/       # Harness rsc: conectores a herramientas
 └── 02-DOCS/        # Harness rsc: wiki del proyecto
 ```
 
-`assets/scraper_boe.png` no se usa en `index.html`. `portfolio.gif` solo lo usa el README.
+`portfolio.gif` solo lo usa el README. `.gradiente-3` y `.retraso-200` solo los usa la tarjeta comentada "Task Manager App".
 
 ## Secciones de la página (en orden)
 
