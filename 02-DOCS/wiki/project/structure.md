@@ -4,7 +4,7 @@
 
 ```text
 /
-├── index.html      # Toda la página (336 líneas)
+├── index.html      # Toda la página (316 líneas)
 ├── style.css       # Todos los estilos (≈700 líneas)
 ├── script.js       # Toda la interactividad (49 líneas)
 ├── dockerfile      # Servir con nginx
@@ -14,7 +14,7 @@
 └── 02-DOCS/        # Harness rsc: wiki del proyecto
 ```
 
-`portfolio.gif` solo lo usa el README. `.gradiente-3` y `.retraso-200` solo los usa la tarjeta comentada "Task Manager App".
+`portfolio.gif` solo lo usa el README. `.gradiente-3` y `.retraso-200` ya no los usa ninguna tarjeta; quedan en `style.css` para una tercera tarjeta futura.
 
 ## Secciones de la página (en orden)
 
@@ -25,14 +25,14 @@
 | `#inicio` (hero) | "Ventana de terminal" con saludo, título, cita y foto; botones "Ver Proyectos" y "Descargar CV" |
 | `#sobre-mi` | Texto de trayectoria + estadísticas (+1 año, +3 proyectos) |
 | `#habilidades` | Slider infinito de tecnologías (8 items duplicados a mano para el bucle) |
-| `#proyectos` | Grid de tarjetas: "Dashboard Personal" y "Scraper BOE". Una tercera tarjeta ("Task Manager App") está comentada |
+| `#proyectos` | Grid de tarjetas: "Dashboard Personal" y "Scraper BOE" |
 | `footer` | Copyright 2025 |
 
 ## Estado de las tarjetas de proyecto
 
 - **Dashboard Personal**: es la agenda clínica online del autor. El código está en carpetas locales y aún no está subido; por eso los enlaces son `#`. La tarjeta se queda.
 - **Scraper BOE**: publicado, con código en GitHub y demo en YouTube.
-- **Task Manager App**: el proyecto no existe. La tarjeta comentada se borrará en una tarea aparte.
+- **Task Manager App**: el proyecto no existe. La tarjeta comentada se borró del código el 2026-10-28.
 
 ## Cómo añadir un proyecto
 
