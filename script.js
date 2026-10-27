@@ -1,4 +1,8 @@
 document.addEventListener('DOMContentLoaded', () => {
+    // Año actual en el pie de página
+    const anioActual = document.getElementById('anio-actual');
+    if (anioActual) anioActual.textContent = new Date().getFullYear();
+
     // Alternar menú móvil
     const alternarMenu = document.querySelector('.alternar-menu');
     const enlacesNav = document.querySelector('.enlaces-nav');
